@@ -1,7 +1,6 @@
-```markdown
-# 🧠 API REST Backend - Autenticación y Gestión de Usuarios
+# API REST Backend - Autenticación y Gestión de Usuarios
 
-## 🎯 Objetivo
+## Objetivo
 
 Este proyecto backend fue desarrollado como parte de una prueba técnica para evaluar habilidades en el desarrollo de APIs RESTful utilizando Django y Django REST Framework, haciendo énfasis en:
 
@@ -26,7 +25,7 @@ Este proyecto backend fue desarrollado como parte de una prueba técnica para ev
 
 ---
 
-## 🗃️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 📁 fianly_backend/           # Proyecto Django
@@ -47,7 +46,7 @@ Este proyecto backend fue desarrollado como parte de una prueba técnica para ev
 
 ---
 
-## 🚀 Instalación del Proyecto
+## Instalación del Proyecto
 
 ### 🔧 Requisitos Previos
 
@@ -55,24 +54,34 @@ Este proyecto backend fue desarrollado como parte de una prueba técnica para ev
 - pip
 - virtualenv (recomendado)
 
-### 🛠️ Pasos para levantar el entorno local
+### Pasos para levantar el entorno local
 
-```bash
+
 # 1. Clona el repositorio
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+```
+git clone https://github.com/SebaxtriUTP/test_fianly_backend.git
+cd test_fianly_backend
+```
+
 
 # 2. Crea y activa un entorno virtual
+```
 python -m venv env
 source env/bin/activate  # En Windows: env\Scripts\activate
+```
 
 # 3. Instala las dependencias
+```
 pip install -r requirements.txt
+```
 
 # 4. Aplica las migraciones
+```
 python manage.py migrate
+```
 
 # 5. Inicia el servidor de desarrollo
+```
 python manage.py runserver
 ```
 
@@ -270,8 +279,8 @@ Authorization: Bearer <jwt_token_aquí>
 ## 🧑 Autor
 
 **Juan Sebastián Gómez Díaz**  
-📧 [tu.email@dominio.com]  
-🌐 GitHub: [https://github.com/tu_usuario](https://github.com/tu_usuario)
+📧 sebaxtri@gmail.com  
+🌐 GitHub: https://github.com/SebaxtriUTP
 
 ---
 
@@ -282,4 +291,3 @@ Authorization: Bearer <jwt_token_aquí>
 - La base de datos y lógica están listas para ambientes de staging o producción.
 
 ---
-```
